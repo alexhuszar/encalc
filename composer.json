@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sofadesign/limonade": "dev-master",
+        "google/apiclient": "2.0"
+    }
+}

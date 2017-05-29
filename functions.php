@@ -1,4 +1,10 @@
 <?php
+function not_found($errno, $errstr, $errfile, $errline)
+{
+    status(SERVER_ERROR);
+    return html('error_404.html.php');
+}
+
 function get_public_ss($ss_id, $s_nr){
     $sheet_contents = [];
     for ($i = 1; $i <= $s_nr; $i++) {

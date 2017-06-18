@@ -1,0 +1,21 @@
+{
+  "name": "avsports-lim",
+  "homepage": "https://github.com/lorraul/avsports-lim",
+  "authors": [
+    "lorraul <lorraul@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.2",
+    "local-storage-js": "*"
+  }
+}

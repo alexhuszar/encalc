@@ -1,1 +1,3 @@
-<div>footer</div>
+<footer class="footer">
+  <div >&copy; sigmagfx</div>
+</footer>

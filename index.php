@@ -20,6 +20,7 @@ $options = array('params' => array('data'=>$data));
 
 dispatch('/', 'home', $options);
 dispatch('/calc', 'calc', $options);
+dispatch('/furniz', 'furniz', $options);
 error(NOT_FOUND, 'not_found');
 
 run();
